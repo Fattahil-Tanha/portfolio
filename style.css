@@ -61,6 +61,9 @@ nav li{
     margin-bottom: 30px;
 }
 /* ------main section ------*/
+section{
+    margin-top: 130px;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -68,13 +71,15 @@ main{
 /* about section styl----es */
 .about{
     text-align: center;
-    margin-top: 130px;
+
     border-radius: 10px;
     background-color: #fff8f3;
     padding: 130px 150px;
 }
 .section-title{
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 .section-desc{
     color: #757575;
@@ -96,3 +101,29 @@ main{
     font-weight: 700;
     color: #474747;
 }
+/* ----------what i do--------- */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-desc{
+    color: #757575;
+}
+.skill{
+    background-color: #fff;
+    box-shadow: 0px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+/* ------------resume styles---------- */
+
+
